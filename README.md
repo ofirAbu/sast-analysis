@@ -1,4 +1,4 @@
-# SAST analysisS
+# SAST analysis
 In this project I'll analyze the functionality of Semgrep, codeQL and Joern on Juiceshop.
 
 
