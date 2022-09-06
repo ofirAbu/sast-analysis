@@ -17,7 +17,7 @@ In this project I'll analyze the functionality of Semgrep, codeQL and Joern on J
     - Running queries is very friendly when you just want to check some of them, running a bunch of them will require handling a configuration file, and that's before talking about what queries shoud you choose.
     - Didn't find a way to analyze results by the code (API).
     - Results are shown, but they're not aggregated in any way, for example: The following are 2 paths that are the result of a log-injection query by codeQL:
-    ![]("C:\Users\ofird\VscodeProjects\sast-analysis\code-ql-analysis\unaggregated_results._example.png")
+    ![](./code-ql-analysis/unaggregated_results._example.png)
 
 ## TODO List
 1. Run codeQL security queries on the DB and parse paths.
