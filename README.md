@@ -24,7 +24,7 @@ In this project I'll analyze the functionality of Semgrep, codeQL and Joern on J
 
 ## TODO List
 1. Run codeQL security queries on the DB and parse paths.
-2. Set up Semgrep.
+2. Set up Semgrep. __[WE ARE HERE]__
 3. Run Semgrep security queries on the app and parse paths.
 4. Set up Joern.
 5. Run Joern security queries on the app and parse paths.
