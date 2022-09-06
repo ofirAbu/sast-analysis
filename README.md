@@ -19,6 +19,9 @@ In this project I'll analyze the functionality of Semgrep, codeQL and Joern on J
     - Results are shown, but they're not aggregated in any way, for example: The following are 2 paths that are the result of a log-injection query by codeQL:
     ![](./code-ql-analysis/unaggregated_results._example.png)
 
+### Semgrep
+1. Still checking but - Semgrep __does__ provide an API, I think yhey expect a Semgrep to run locally (or remotely, in a known route) and then we can make requests and [get results in JSON format](https://semgrep.dev/api/v1/docs/#tag/Finding).
+
 ## TODO List
 1. Run codeQL security queries on the DB and parse paths.
 2. Set up Semgrep.
