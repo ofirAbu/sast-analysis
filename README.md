@@ -21,6 +21,9 @@ In this project I'll analyze the functionality of Semgrep, codeQL and Joern on J
 
 ### Semgrep
 1. Still checking but - Semgrep __does__ provide an API, I think yhey expect a Semgrep to run locally (or remotely, in a known route) and then we can make requests and [get results in JSON format](https://semgrep.dev/api/v1/docs/#tag/Finding).
+2. You need to install Semgrep locally: https://semgrep.dev/docs/getting-started/
+3. Then, you need to **manually** deploy the project and run a scan on the specified repo, specfically - simply follow the steps here: https://semgrep.dev/orgs/-/setup/local
+4. Then you'll be able to recieve and parse the findings via a simple GET request, see the API documentation here: https://semgrep.dev/api/v1/docs/#tag/Finding (after getting an authentication token via another GET request, doc on the same page).
 
 ## TODO List
 1. Run codeQL security queries on the DB and parse paths.
